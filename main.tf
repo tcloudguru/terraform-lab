@@ -1,10 +1,10 @@
 terraform { 
   cloud { 
     
-    organization = "pyriot" 
+    organization = "terraform-batch2" 
 
     workspaces { 
-      name = "dev" 
+      name = "terraform-lab" 
     } 
   } 
 }
@@ -32,7 +32,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "web" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
-  count = 2
+ # count = 2
   tags = {
     Name = "HelloWorld"
   }
