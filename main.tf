@@ -1,7 +1,7 @@
 terraform { 
   cloud { 
     
-    organization = "terraform-batch2" 
+    organization = "wipro-fsc" 
 
     workspaces { 
       name = "terraform-lab" 
