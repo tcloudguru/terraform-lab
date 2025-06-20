@@ -1,7 +1,7 @@
 terraform { 
   cloud { 
     
-    organization = "wipro-fsc" 
+    organization = "tejasorg" 
 
     workspaces { 
       name = "terraform-lab" 
