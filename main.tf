@@ -1,10 +1,10 @@
 terraform { 
   cloud { 
     
-    organization = "tejasorg" 
+    organization = "tejas-pyriot" 
 
     workspaces { 
-      name = "terraform-lab" 
+      name = "tejas-pyriot-workspace" 
     } 
   } 
 }
